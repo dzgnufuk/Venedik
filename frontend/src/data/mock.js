@@ -1,4 +1,4 @@
-// Mock data for Venedik Pastanesi
+// Venedik Pastanesi Web Sitesi İçeriği
 
 export const heroData = {
   title: "Venedik Pastanesi",
