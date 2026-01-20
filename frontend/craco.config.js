@@ -100,6 +100,25 @@ webpackConfig.devServer = (devServerConfig) => {
     };
   }
 
+  // Configure error overlay to filter PostHog errors
+  devServerConfig.client = {
+    ...devServerConfig.client,
+    overlay: {
+      errors: (error) => {
+        // Filter out PostHog-related errors
+        if (
+          error.message?.includes('PerformanceServerTiming') ||
+          error.message?.includes('DataCloneError') ||
+          error.message?.includes('posthog-recorder')
+        ) {
+          return false;
+        }
+        return true;
+      },
+      warnings: false,
+    },
+  };
+
   return devServerConfig;
 };
 
