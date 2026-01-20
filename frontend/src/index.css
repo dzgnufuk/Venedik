@@ -81,6 +81,22 @@ code {
         @apply bg-background text-foreground;
     }
 }
+/* Custom utilities for bakery theme */
+@layer utilities {
+  .bg-cream-50 {
+    background-color: #fdfcfb;
+  }
+  
+  .from-cream-50 {
+    --tw-gradient-from: #fdfcfb;
+    --tw-gradient-to: rgb(253 252 251 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+  
+  .to-cream-50 {
+    --tw-gradient-to: #fdfcfb;
+  }
+}
 
 @layer base {
     [data-debug-wrapper="true"] {
