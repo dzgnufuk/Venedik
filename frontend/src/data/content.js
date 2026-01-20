@@ -38,14 +38,14 @@ export const menuCategories = [
     id: 4,
     title: "Pizza & Makarna",
     description: "Pizza Venedik, Spaghetti ve seçkin İtalyan esintileri",
-    image: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
     items: ["Pizza Venedik", "Spaghetti Bolognese", "Penne Alfredo", "Pizza Margherita"]
   },
   {
     id: 5,
     title: "Et & Tavuk Yemekleri",
     description: "Steak Fajita, Şinitzel, Chicken Special",
-    image: "https://images.unsplash.com/photo-1620980776848-84ac10194945",
+    image: "https://images.unsplash.com/photo-1558030006-450675393462",
     items: ["Steak Fajita", "Tavuk Şinitzel", "Chicken Special", "Izgara Köfte"]
   }
 ];
