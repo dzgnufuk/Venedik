@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
 import { Button } from './ui/button';
-import { heroData } from '../data/mock';
+import { heroData } from '../data/content';
 
 const Hero = () => {
   const scrollToMenu = () => {

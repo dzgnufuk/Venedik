@@ -1,5 +1,5 @@
 import React from 'react';
-import { specialOffersData } from '../data/mock';
+import { specialOffersData } from '../data/content';
 import { Button } from './ui/button';
 import { Sparkles } from 'lucide-react';
 

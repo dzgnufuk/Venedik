@@ -1,6 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Mail, Phone } from 'lucide-react';
-import { contactData } from '../data/mock';
+import { contactData } from '../data/content';
 
 const Footer = () => {
   const scrollToSection = (sectionId) => {

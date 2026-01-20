@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from './ui/card';
-import { menuCategories } from '../data/mock';
+import { menuCategories } from '../data/content';
 
 const Menu = () => {
   return (

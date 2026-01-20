@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
-import { contactData } from '../data/mock';
+import { contactData } from '../data/content';
 
 const Contact = () => {
   return (

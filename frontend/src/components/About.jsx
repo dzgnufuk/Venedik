@@ -1,6 +1,6 @@
 import React from 'react';
 import { Coffee, Cake, Award, Users } from 'lucide-react';
-import { aboutData } from '../data/mock';
+import { aboutData } from '../data/content';
 
 const About = () => {
   const features = [
